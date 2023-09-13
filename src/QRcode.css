@@ -1,0 +1,70 @@
+
+
+.QRCode2Container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .QRCode2Title {
+    color: #333;
+    text-align: center;
+  }
+  
+  .QRCode2Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .QRCode2InputWrapper {
+    margin-bottom: 10px;
+  }
+  
+  .QRCode2InputWrapper label {
+    font-weight: bold;
+  }
+  
+  .QRCode2InputWrapper input[type="text"],
+  .QRCode2InputWrapper input[type="color"],
+  .QRCode2Form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .QRCode2SubmitButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .QRCode2SubmitButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .QRCode2Result {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .QRCode2ResultTitle {
+    color: #555;
+  }
+  
+  .QRCode2Image {
+    max-width: 100%;
+    height: auto;
+  }
+  
